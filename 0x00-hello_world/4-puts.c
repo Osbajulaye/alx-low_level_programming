@@ -2,7 +2,7 @@
 /* Display string using puts commands*/
 
 int main(void) {
-	// main function
+	/* main function */
 
 	puts("\"Programming is like building a multilingual puzzle\n"); /* input command */
 
