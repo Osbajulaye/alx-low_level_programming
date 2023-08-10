@@ -1,9 +1,11 @@
 #include <stdio.h>
 	
-int main(void) // display strings
+int main(void)
 
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n"); // print statement
+
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	
 	return (0);
 }
 
