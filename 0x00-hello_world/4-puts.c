@@ -4,7 +4,7 @@
 int main(void) {
 	/* main function */
 
-	puts("\"Programming is like building a multilingual puzzle\n"); /* input command */
+	puts("\"Programming is like building a multilingual puzzle"); /* input command */
 
 		return (0); /* reult */
 
