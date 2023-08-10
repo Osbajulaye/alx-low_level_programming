@@ -1,7 +1,6 @@
 # include  <stdio.h>
-int main(void) 
+int main(void) /* using puts to display strings */ 
 {
-	/* using puts to display strings */
 	puts("Programming is like building a multilingual puzzle\n");
 		return (0);
 }
