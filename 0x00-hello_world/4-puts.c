@@ -1,9 +1,5 @@
 # include  <stdio.h>
-/* Display string using puts commands
- * main -the main function for execution
- *
- * Return: 0 (success)
- */
+/* Display string using puts commands Main function */
 
 int main(void)
 {
