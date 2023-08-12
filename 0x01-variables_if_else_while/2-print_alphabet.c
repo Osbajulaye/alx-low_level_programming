@@ -1,6 +1,5 @@
 #include <stdio.h>
 /* header declaaration */
-
 int main(void)
 {
 	char alphabet = 'a';
