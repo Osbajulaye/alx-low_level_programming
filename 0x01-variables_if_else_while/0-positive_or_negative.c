@@ -5,6 +5,7 @@
 
 /* betty style doc for function main goes there */
 int main(void)
+	/* Main fuction */
 {
 	int n;
 
@@ -14,15 +15,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%d is a positve. \n", n);
+		printf("%d is a positve.\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("%d is a negative. \n", n);
+		printf("%d is a negative.\n", n);
 	}
-	else 
+	else
 	{
-		printf("%d is zero. \n", n);
+		printf("%d is zero.\n", n);
 	}
 	/* here comes the result */
 	return (0);
