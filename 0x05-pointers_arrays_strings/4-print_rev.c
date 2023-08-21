@@ -5,6 +5,14 @@
  *  s: a string
  *  return 0
  */
+int _strlen(char *s)
+{
+	char *p = s;
+
+	while(*s)
+		s++;
+	return(s - p);
+}
 
 void print_rev(char *s)
 {
