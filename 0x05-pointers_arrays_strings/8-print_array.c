@@ -29,7 +29,7 @@ int numlength(int num)
 	return (length);
 }
 
-void putnchar(int num)
+void putchar(int num)
 {
 	int length = numlength(num), j = length - 1, k, tmp2, digit1;
 
@@ -60,7 +60,7 @@ void putnchar(int num)
 				putchar(digit1 + 48);
 				tmp2 = num;
 				num -= powB(10, j) * digit1;
-				if (numLength(tmp2) - numLength(num) == 2)
+				if (numlength(tmp2) - numlength(num) == 2)
 				{
 					putchar(48);
 					j--;
