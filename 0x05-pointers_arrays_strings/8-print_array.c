@@ -45,7 +45,7 @@ void putnchar(int num)
 	{
 		while (j >=0)
 		{
-			if (num % powB(10, j) == 0 && j !=0)
+			if (num % powB(10, j) == 0 && j != 0)
 			{
 				putchar(48 + num / powB(10, j));
 				for (k = j; k > 0; k--)
