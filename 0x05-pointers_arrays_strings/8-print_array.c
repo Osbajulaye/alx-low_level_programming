@@ -29,7 +29,7 @@ int numlength(int num)
 	return (length);
 }
 
-void putchar(int num)
+void putnchar(int num)
 {
 	int length = numlength(num), j = length - 1, k, tmp2, digit1;
 
