@@ -12,7 +12,7 @@ int powB(int base, int power)
 	return (prod);
 }
 
-int numLength(int num)
+int numlength(int num)
 {
 	int length = 0;
 
