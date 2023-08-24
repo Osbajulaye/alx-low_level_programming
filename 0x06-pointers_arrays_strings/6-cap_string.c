@@ -1,8 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
-#include <stdio.h>
-#include <ctype.h>
 
 
 char *cap_string(char *n)
@@ -13,7 +10,7 @@ char *cap_string(char *n)
 	{
 		if (n[0] <= 122 && n[0] >= 97)
 		{
-			n[0] = n[0] -32;
+			n[0] = n[0] - 32;
 		}
 		if(n[i] == 32 || n[i] == 46 || n[i] == '\t' || n[i] == '\n' || n[i] == 44 || n[i] == 59 || n[i] '!' || n[i] == '?' || n[i] == '(' || n[i] == ')' || n[i] == '{' || n[i] == '}')
 		{
