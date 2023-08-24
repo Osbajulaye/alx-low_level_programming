@@ -6,7 +6,7 @@ char *leet(char *n)
 	int i;
 	int a;
 	char b[11] = "aAeEoOtTlL";
-	charc[11] = "4433007711";
+	char c[11] = "4433007711";
 
 	for(i = 0; n[i] != '\0'; i++)
 	{
@@ -14,6 +14,7 @@ char *leet(char *n)
 		{
 			if(b[a] == n[i])
 			{
+				n[i] = c[a];
 			}
 		}
 	}
