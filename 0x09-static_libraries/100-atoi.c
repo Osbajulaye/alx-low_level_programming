@@ -15,7 +15,7 @@ int _atoi(char *s)
 		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
 		if (*(s + count) == '-')
-			pn *n = -1;
+			pn *= -1;
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
 			if (size > 0)
@@ -31,4 +31,3 @@ int _atoi(char *s)
 	}
 	return (oi * pn);
 }
-

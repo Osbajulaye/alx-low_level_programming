@@ -1,5 +1,7 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef FILE_MAIN
+#define FILE_MAIN
+
+/* a list that was given from the task 0 */
 
 int _putchar(char c);
 int _islower(int c);
@@ -16,8 +18,8 @@ char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 char *_memset(char *s, char b, unsigned int n);
-char *memcpy(char *dest, char *src, i=unsigned int n);
-char *strchr(char *s, char c);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
