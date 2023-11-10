@@ -22,7 +22,7 @@ void print_all(const char * const format, ...)
 		{
 			if (fmt[j] == format[i] && c)
 			{
-				_putchar(', ');
+				_putchar(',');
 				break;
 			}
 			j++;
@@ -30,21 +30,21 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 			case 'c':
-				_putchar('%c', va_arg(ap, int)), c = 1;
+				_putchar(va_arg(ap, int)), c = 1;
 				break;
 			case 'i':
-				_putchar('%i', va_arg(ap, int)), c = 1;
+				_putchar('0' + va_arg(ap, int)), c = 1;
 				break;
 			case 'f':
-				_putchar('%f', va_arg(ap, double)), c = 1;
+				_putchar('0' +  va_arg(ap, double)), c = 1;
 			case 's':
 				str = va_arg(ap, char *), c = 1;
 				if (!str)
 				{
-					_putchar('(nil)');
+					_putchar((nil));
 					break;
 				}
-				_putchar('%s', str);
+				_putchar(str);
 				break;
 		}
 		i++;
