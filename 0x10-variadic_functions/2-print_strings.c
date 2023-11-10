@@ -7,7 +7,7 @@
  * Return: NULL void
  */
 
-void print_string(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i;
@@ -36,5 +36,5 @@ void print_string(const char *separator, const unsigned int n, ...)
 		}
 	}
 	va_end(ap);
-	putchar('\n');
+	_putchar('\n');
 }
