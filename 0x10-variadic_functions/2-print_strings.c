@@ -27,12 +27,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		if (arr[i] == 1)
-			_putchar('(nil)');
+			_putchar((nil));
 		else
-			_putchar('%s', va_arg(ap, char *));
+			_putchar(va_arg(ap, char *));
 		if ( i < (n - 1) && separator)
 		{
-			_putchar('%s', separator);
+			_putchar(separator);
 		}
 	}
 	va_end(ap);
